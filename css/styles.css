@@ -1,0 +1,433 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* Header alanı */
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 1140px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.16;
+    padding: 25.5px;
+}
+
+.nav {
+    background-color: #FFFFFF;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 24px;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+.Studio {
+    color: #2E2F42;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: medium;
+    line-height: 1.5;
+}
+
+.Studio:hover {
+    color: #404BBF;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: medium;
+    line-height: 1.5;
+}
+
+.Studio:active {
+    color: #404BBF;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: medium;
+    line-height: 1.5;
+}
+
+.Portfolio{
+    color: #2E2F42;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: medium;
+    line-height: 1.5;
+}
+
+.Portfolio:hover {
+    color: #404BBF;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: medium;
+    line-height: 1.5;
+}
+
+.Contacts {
+    color: #2E2F42;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: medium;
+    line-height: 1.5;
+}
+
+.Contacts:hover {
+    color: #404BBF;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: medium;
+    line-height: 1.5;
+}
+
+.address-list ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: auto;
+    padding: 24px;
+}
+
+.adress {
+    color: #434455;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5;
+
+}
+
+.adress:hover {
+    color: #404BBF;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+/* Header alanı bitiş */
+
+/*Main başlangıç */
+
+.post-tittle {
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.post {
+    background-color: #2E2F42;
+    padding: 120px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    max-width: 1440px;
+    background-image: linear-gradient(to bottom,
+             rgba(46, 47, 66, 0.7),
+             rgba(46, 47, 66, 0.7)),
+            url(../images/people-office1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    text-align: center ;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    cursor: pointer;
+    font-weight: medium;
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    cursor: pointer;
+    font-weight: medium;
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+
+.p{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    width: 1128px;
+    margin: 0 auto;
+}
+
+.about ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 120px;
+    gap: 24px;
+}
+
+.about ul li{
+    width: 264px;
+}
+
+.icon-antenna1, .icon-clock1, .icon-diagram1, .icon-astronaut1 {
+    width: 64px;
+}
+
+.iconlarim {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-item {
+    border: 1px solid #8E8F99;
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.Strategy {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.punctuality {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.diligence {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.technologies {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.team {
+    background-color: #F4F4FD;
+    padding: 120px;
+}
+
+.team ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.our-team {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    font-weight: bold;
+    padding-bottom: 72px;
+}
+
+.team-list {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    width: 264px;
+    height: 428px;
+    background-color: #FFFFFF;
+}
+
+.sosyal-medya {
+    display: flex;
+    gap: 24px;
+}
+
+.sosyal-medya .team-list {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.sosyal-medya .team-list .icon-instagram, .sosyal-medya .team-list .icon-facebook, .sosyal-medya .team-list .icon-linkedin {
+    width: 16px;
+    height: 16px;
+}
+
+.mark-guerrero {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.tom-ford {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.camila-garcia {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.daniel-wilson {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+}
+
+.p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.portfolio ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.our-portfolio {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    font-weight: bold;
+    padding: 120px;
+    padding-bottom: 72px;
+}
+
+.li {
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: medium;
+    color: #2E2F42;
+    line-height: 1.2;
+    padding-bottom: 120px;
+}
+
+.p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*Main bitiş */
+
+/* Footer başlangıç */
+
+.footer-logo {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #F4F4FD;
+    text-decoration: none;
+    line-height: 1.16;
+}
+
+.nav-list {
+    background-color: #FFFFFF;
+}
+
+.footer-logo span {
+    color: #4D5AE5;
+}
+
+.footer-p {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 264px;
+    padding-top: 15px;
+}
+
+.footer {
+    background-color: #2E2F42;
+    flex-direction: row;
+    padding: 120px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    padding-top: 100px;
+}
+
+
+/* Footer bitiş */
