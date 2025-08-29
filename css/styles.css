@@ -290,10 +290,13 @@ ul li {
 }
 
 .team-list {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+                0 1px 1px 0 rgba(46, 47, 66, 0.16),
+                0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width: 264px;
-    height: 428px;
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    text-align: center;
 }
 
 .sosyal-medya {
@@ -312,7 +315,7 @@ ul li {
     border-radius: 50%;
 }
 
-.sosyal-medya .team-list .icon-instagram, .sosyal-medya .team-list .icon-facebook, .sosyal-medya .team-list .icon-linkedin {
+.sosyal-medya .team-list .icon-instagram, .sosyal-medya .team-list .icon-facebook, .sosyal-medya .team-list .icon-linkedin, .sosyal-medya .team-list .icon-twitter {
     width: 16px;
     height: 16px;
 }
@@ -418,6 +421,15 @@ ul li {
     line-height: 1.5;
     width: 264px;
     padding-top: 15px;
+}
+
+.footer-p2 {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    justify-content: flex-start;
+    display: flex;
 }
 
 .footer {
