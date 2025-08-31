@@ -44,6 +44,39 @@ ul li {
     padding: 24px;
 }
 
+.nav-list li a {
+    position: relative;
+    display: inline-block;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.nav-list li a:hover,
+.nav-list li a:active {
+    color: #404bbf;
+    text-decoration: none;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list a:hover::after {
+    position: absolute;
+    top: 44px;
+    /* Y konumu */
+    left: 50%;
+    width: 44px;
+    height: 4px;
+    background-color: #404bbf;
+    transform: translateX(-50%);
+    content: "";
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .logo span {
     color: #4D5AE5;
 }
@@ -209,7 +242,7 @@ ul li {
     justify-content: space-between;
     flex-direction: row;
     padding: 120px;
-    gap: 24px;
+    gap: 24px; 
 }
 
 .about ul li{
@@ -295,13 +328,8 @@ ul li {
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width: 264px;
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
     text-align: center;
-}
-
-.sosyal-medya {
-    display: flex;
-    gap: 24px;
+    height: 428px;
 }
 
 .sosyal-medya .team-list {
@@ -315,7 +343,10 @@ ul li {
     border-radius: 50%;
 }
 
-.sosyal-medya .team-list .icon-instagram, .sosyal-medya .team-list .icon-facebook, .sosyal-medya .team-list .icon-linkedin, .sosyal-medya .team-list .icon-twitter {
+.sosyal-medya .team-list .icon-instagram,
+.sosyal-medya .team-list .icon-facebook, 
+.sosyal-medya .team-list .icon-linkedin, 
+.sosyal-medya .team-list .icon-twitter {
     width: 16px;
     height: 16px;
 }
@@ -325,6 +356,7 @@ ul li {
     font-weight: medium;
     color: #2E2F42;
     line-height: 1.2;
+    padding-top: 32px;
 }
 
 .tom-ford {
@@ -332,6 +364,7 @@ ul li {
     font-weight: medium;
     color: #2E2F42;
     line-height: 1.2;
+    padding-top: 32px;
 }
 
 .camila-garcia {
@@ -339,6 +372,7 @@ ul li {
     font-weight: medium;
     color: #2E2F42;
     line-height: 1.2;
+    padding-top: 32px;
 }
 
 .daniel-wilson {
@@ -346,12 +380,15 @@ ul li {
     font-weight: medium;
     color: #2E2F42;
     line-height: 1.2;
+    padding-top: 32px;
 }
 
 .p {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 8px;
+    padding-bottom: 12px;
 }
 
 .portfolio ul {
@@ -394,6 +431,49 @@ ul li {
     line-height: 1.5;
 }
 
+.image-box {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.hover-box {
+    text-align: left;
+    width: 296px;
+    height: 96px;
+}
+
+.image-box .hover-box {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    background-color: #4D5AE5;
+    padding-top: 40px;
+    padding-bottom: 164px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    width: 360px;
+    height: 300px;
+    color: #F4F4FD;
+    transform: translateY(100%);
+    transition:
+            color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.image-box:hover .hover-box {
+    transform: translateY(0);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 /*Main bitiş */
 
 /* Footer başlangıç */
@@ -423,6 +503,13 @@ ul li {
     padding-top: 15px;
 }
 
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    margin-right: 16px;
+}
+
 .footer-p2 {
     color: #FFFFFF;
     font-size: 16px;
@@ -430,6 +517,46 @@ ul li {
     text-align: left;
     justify-content: flex-start;
     display: flex;
+    padding-bottom: 16px;
+    padding-left: 120px;
+}
+
+.footer-right .team-list2 {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+}
+
+.footer-right .team-list2:hover {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    background-color: #31D0AA;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+}
+
+.sosyal-medya2 {
+    padding-left: 120px;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
+    display: flex;
+}
+
+.footer-right .team-list2 .icon-instagram2,
+.footer-right .team-list2 .icon-facebook2,
+.footer-right .team-list2 .icon-linkedin2,
+.footer-right .team-list2 .icon-twitter2 {
+    width: 24px;
+    height: 24px;
 }
 
 .footer {
@@ -439,7 +566,8 @@ ul li {
     padding-bottom: 100px;
     padding-left: 156px;
     padding-top: 100px;
+    display: flex;
+    align-items: flex-start;
 }
-
 
 /* Footer bitiş */
