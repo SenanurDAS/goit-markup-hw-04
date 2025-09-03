@@ -219,6 +219,8 @@ ul li {
     font-weight: medium;
     padding: 16px 32px;
     border-radius: 4px;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .p{
@@ -356,6 +358,12 @@ ul li {
     border-radius: 50%;
 }
 
+.sosyal-medya .team-list:hover {
+    background-color: #404BBF;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .sosyal-medya .team-list .icon-instagram,
 .sosyal-medya .team-list .icon-facebook, 
 .sosyal-medya .team-list .icon-linkedin, 
@@ -482,6 +490,8 @@ ul li {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -514,13 +524,6 @@ ul li {
     padding-top: 15px;
 }
 
-.footer-icon {
-    width: 24px;
-    height: 24px;
-    fill: #FFFFFF;
-    margin-right: 16px;
-}
-
 .footer-p2 {
     color: #FFFFFF;
     font-size: 16px;
@@ -529,33 +532,34 @@ ul li {
     justify-content: flex-start;
     display: flex;
     padding-bottom: 16px;
-    padding-left: 120px;
+    gap:120px;
 }
 
 .footer-right .team-list2 {
     list-style-type: none;
-    width: 40px;
-    height: 40px;
     background-color: #4D5AE5;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     display: flex;
+    width: 40px;
+    height: 40px;
 }
 
 .footer-right .team-list2:hover {
     list-style-type: none;
-    width: 40px;
-    height: 40px;
     background-color: #31D0AA;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     display: flex;
+    width: 40px;
+    height: 40px;
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sosyal-medya2 {
-    padding-left: 120px;
     gap: 16px;
     width: 208px;
     height: 40px;
@@ -566,7 +570,6 @@ ul li {
 .footer-right .team-list2 .icon-facebook2,
 .footer-right .team-list2 .icon-linkedin2,
 .footer-right .team-list2 .icon-twitter2 {
-    width: 24px;
     height: 24px;
 }
 
@@ -579,6 +582,7 @@ ul li {
     padding-top: 100px;
     display: flex;
     align-items: flex-start;
+    gap: 120px;
 }
 
 /* Footer bitiş */
